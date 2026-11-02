@@ -3,7 +3,7 @@ const assert = require("node:assert");
 const { add, subtract, multiply, divide } = require("../src/calculator");
 
 test("add: 2 + 3 = 5", () => {
-  assert.strictEqual(add(2, 3), 6);
+  assert.strictEqual(add(2, 3), 5);
 });
 
 test("subtract: 5 - 2 = 3", () => {
