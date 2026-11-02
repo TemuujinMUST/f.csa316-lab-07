@@ -2,9 +2,10 @@
   "name": "f.csa316-lab-07",
   "version": "1.0.0",
   "description": "GitHub Actions ашиглан CI Pipeline байгуулах",
-  "main": "index.js",
+  "main": "src/calculator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
